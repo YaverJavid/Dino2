@@ -1,0 +1,184 @@
+#C1,
+#C2,
+#C3,
+#C4,
+#C5,
+#C6,
+#C7,
+#C8,
+#C9,
+#C10,
+#C11,
+#C12,
+#C13,
+#C14,
+#C15,
+#C16 {
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-style: inset;
+}
+
+#c15 {
+    background-image: url(Character/pumpkin_face_light_1.png);
+}
+
+#c14 {
+    background-image: url(C14.png);
+}
+
+#c13 {
+    background-image: url(C13.png);
+}
+
+#c12 {
+    background-image: url(C12.png);
+}
+
+#c11 {
+    background-image: url(C11.png);
+}
+
+#c10 {
+    background-image: url(C10.png);
+}
+
+#c9 {
+    background-image: url(C9.png);
+}
+
+#c8 {
+    background-image: url(C8.png);
+}
+
+#c7 {
+    background-image: url(Obstacle.png);
+}
+
+#c6 {
+    background-image: url(C6.png);
+}
+
+#c5 {
+    background-image: url(C5.png);
+}
+
+#c4 {
+    background-image: url(C4.png);
+}
+
+#c3 {
+    background-image: url(C3.png);
+}
+
+#c2 {
+    background-image: url(C2.png);
+}
+
+#c1 {
+    background-image: url(C1.png);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#text-Chr {
+    font-family: monospace;
+    position: relative;
+    left: 20%;
+    font-size: 24px;
+}
+
+body {
+    background-color: black;
+}
+
+#gamezone {
+    background-image: url(BG.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 30%;
+    width: 100%;
+    background-color: #1C8BC9;
+    transform: translate(0, -100%);
+    border-style: inset;
+}
+
+#player {
+    display: block;
+    position: absolute;
+    background-image: url(C2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 6px 6px 9px 9px;
+}
+
+.enemy {
+    background-image: url(Sign-04.png);
+    background-color: transparent;
+    /*box-shadow: 3px 3px white;*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+}
+
+.end_gamezone {
+    background-color: grey;
+    transition: all 1s ease;
+}
+
+.end_text {
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.begin_text {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#speed {
+    position: absolute;
+    right: 0%;
+    color: white;
+    font-size: 10px;
+}
+
+#distance {
+    position: absolute;
+    left: 0;
+    color: white;
+    font-size: 10px;
+}
+
+#time {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+    font-size: 10px;
+}
+
+#txt-version {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 400px;
+    left: 35%;
+    border-style: inset;
+
+}
